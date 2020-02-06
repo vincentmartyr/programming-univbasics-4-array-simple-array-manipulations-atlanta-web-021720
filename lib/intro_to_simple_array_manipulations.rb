@@ -29,7 +29,7 @@ end
 
 def shift_with_args(array)
 ice_cream_brands = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
-  array = ice_cream_brands.shift(2)
+  array.shift(2)
 end
 
 def using_concat(array1, array2)
@@ -39,19 +39,19 @@ def using_concat(array1, array2)
 end
 
 def using_insert(array, element)
-  list_of_programming_languages = ["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"]
-  element = "Python"
-  array = list_of_programming_languages.insert(4, element)
+  #list_of_programming_languages = ["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"]
+  #element = "Python"
+  array.insert(4, element)
 end
 
 def using_uniq(array)
-  haircuts = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
-  array = haircuts.uniq
+  #haircuts = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
+  array.uniq
 end
 
 def using_flatten(array)
-  instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
-  array = instruments.flatten
+  #instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
+  array.flatten
 end
 
 def using_delete(array, string)
