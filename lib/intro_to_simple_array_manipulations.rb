@@ -6,9 +6,9 @@ end
 
 
 def using_unshift(array, string)
-  bouroughs_in_nyc = ["Brooklyn", "Queens", "Manhattan", "Bronx"]
-  string = "Staten Island"
-  updated_array = bouroughs_in_nyc.unshift(string)
+  #bouroughs_in_nyc = ["Brooklyn", "Queens", "Manhattan", "Bronx"]
+  #string = "Staten Island"
+  array.unshift(string)
 end
 
 def using_pop(array)
@@ -28,7 +28,7 @@ def using_shift(array)
 end
 
 def shift_with_args(array)
-ice_cream_brands = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
+#ice_cream_brands = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
   array.shift(2)
 end
 
