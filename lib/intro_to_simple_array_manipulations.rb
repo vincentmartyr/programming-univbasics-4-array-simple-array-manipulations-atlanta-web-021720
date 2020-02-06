@@ -15,6 +15,7 @@ def using_pop(array)
   continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
   array = continents.pop
 end
+using_pop(continents)
 
 def pop_with_args(array)
   dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
@@ -54,7 +55,7 @@ def using_flatten(array)
 end
 
 def using_delete(array, string)
-  #instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
+  instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
   string = "Steven"
   array = instructors.delete(string)
   instructors
