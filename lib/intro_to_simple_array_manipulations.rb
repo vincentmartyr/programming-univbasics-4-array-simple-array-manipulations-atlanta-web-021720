@@ -57,6 +57,7 @@ def using_delete(array, string)
   instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
   string = "Steven"
   array = instructors.delete(string)
+  updated_array = instructors
 end
 
 def using_delete_at(array, interger)
