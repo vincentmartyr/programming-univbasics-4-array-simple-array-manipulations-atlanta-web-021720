@@ -4,6 +4,7 @@ def using_push(array, string)
   updated_array = colors_in_the_rainbow.push(string)
 end
 
+
 def using_unshift(array, string)
   bouroughs_in_nyc = ["Brooklyn", "Queens", "Manhattan", "Bronx"]
   string = "Staten Island"
@@ -13,6 +14,7 @@ end
 def using_pop(array)
   continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
   array = continents.pop
+  array
 end
 
 def pop_with_args(array)
